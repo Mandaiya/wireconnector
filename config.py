@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "22175021"))
+API_ID = getenv("API_ID", "22175021")
 API_HASH = getenv("API_HASH", "9dd328229c3bb96dc1a112c3eac79a1a")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "7476307432:AAEktgA0zuJvyH02NzoPdbwhgoSTasgtaK0")
