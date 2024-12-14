@@ -18,7 +18,7 @@ logging.getLogger("oldpyro").setLevel(logging.ERROR)
 logging.getLogger("telethon").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
-mongo = MongoCli(config.MONGO_DB_URI)
+mongo = MongoClient(config.MONGO_DB_URI)
 db = mongo.StringGen
 
 
