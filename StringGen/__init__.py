@@ -1,7 +1,7 @@
 import logging
 import pyromod
 
-from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
+from pymongo import MongoClient
 from pyrogram import Client
 from pyrogram.enums import ParseMode
 
